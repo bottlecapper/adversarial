@@ -438,11 +438,11 @@ class AdversaryCost2(DefaultDataSpecsMixin, Cost):
 
         y_hat = d.fprop(data)
 
-        rval['false_negatives'] = T.cast((y_hat < 0.5).mean(), 'float32')
+        rval['false_negatives'] = T.cast((y_hat < 0.5).mean(), 'float64')
 
         samples = g.sample(m)
         y_hat = d.fprop(samples)
-        rval['false_positives'] = T.cast((y_hat > 0.5).mean(), 'float32')
+        rval['false_positives'] = T.cast((y_hat > 0.5).mean(), 'float64')
         # y = T.alloc(0., m, 1)
         cost = d.cost_from_X((samples, y_hat))
         sample_grad = T.grad(-cost, samples)
