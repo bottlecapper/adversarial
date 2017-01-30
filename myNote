@@ -1,0 +1,2 @@
+in terminal, run:
+jg@JG:~/pylearn2/pylearn2/scripts$ THEANO_FLAGS="device=gpu,floatX=float32" python train.py /home/jg/code/adversarial/cifar10_fully_connected.yaml
