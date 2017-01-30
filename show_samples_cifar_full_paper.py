@@ -25,9 +25,9 @@ scale = np.abs(samples).max()
 X = dataset.X
 topo = dataset.get_topological_view()
 index = 0
-for i in xrange(samples.shape[0]):
+for i in range(samples.shape[0]):
     topo_sample = topo_samples[i, :, :, :]
-    print topo_sample.min(), topo_sample.max()
+    print (topo_sample.min(), topo_sample.max())
     pv.add_patch(topo_sample / scale, rescale=False)
 
     if (i +1) % sample_cols == 0:
@@ -35,7 +35,7 @@ for i in xrange(samples.shape[0]):
         dists = np.square(X - sample).sum(axis=1)
         j = np.argmin(dists)
         match = topo[j, :]
-        print match.min(), match.max()
+        print (match.min(), match.max())
         pv.add_patch(match / scale, rescale=False, activation=1)
 
 pv.show()
