@@ -9,4 +9,9 @@ Environment variables: PYTHONPATH=/home/jg/code;PYLEARN2_DATA_PATH=/home/jg/pyle
 Working directory: /home/jg/code/
 
 
+GPU problems
+1.nvcc problem
+set envrionment variable PATH=/usr/local/cuda/bin/: and LD_LIBRARY_PATH=/usr/local/cuda/lib64:
+2.CNMeM is disabled, cuDNN not available
+install cuDNN library
 
