@@ -2,8 +2,11 @@ in terminal, run:
 jg@JG:~/pylearn2/pylearn2/scripts$ THEANO_FLAGS="device=gpu,floatX=float32" python train.py /home/jg/code/adversarial/cifar10_fully_connected.yaml
 
 
-
-
+Settings in Pycharm:
+run /home/jg/pylearn2/pylearn2/scripts/train.py
+Script parameters: /home/jg/code/adversarial/cifar10_fully_connected.yaml
+Environment variables: PYTHONPATH=/home/jg/code;PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata;PYTHONUNBUFFERED=1
+Working directory: /home/jg/code/
 
 
 
