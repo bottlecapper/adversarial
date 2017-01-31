@@ -36,3 +36,24 @@ add to PYTHONPATH=/home/jg/pylearn2/pylearn2/packaged_dependencies/theano_linear
 change gpu_unshared_conv.py:
 line 8: from StringIO import StringIO --> from io import StringIO
 line 17,18,19: .unshared_conv --> unshared_conv
+
+
+
+### View results
+show_samples_cifar_full_paper.py
+line 28: xrange --> range
+line 30,38: print --> print()
+Script parameters: /home/jg/code/adversarial/cifar10_fully_connected.pkl
+Environment variables: 
+PYTHONPATH=/home/jg/code;
+PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata;
+PYLEARN2_VIEWER_COMMAND=eog --new-instance;
+PYTHONUNBUFFERED=1
+
+
+
+
+
+
+
+
