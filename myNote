@@ -14,4 +14,6 @@ GPU problems
 set envrionment variable PATH=/usr/local/cuda/bin/: and LD_LIBRARY_PATH=/usr/local/cuda/lib64:
 2.CNMeM is disabled, cuDNN not available
 install cuDNN library
+in terminal, run:
+jg@JG:~/PycharmProjects/checkGPU$ THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,optimizer_including=cudnn' python check1.py
 
