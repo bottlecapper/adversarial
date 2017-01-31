@@ -16,4 +16,8 @@ set envrionment variable PATH=/usr/local/cuda/bin/: and LD_LIBRARY_PATH=/usr/loc
 install cuDNN library
 in terminal, run:
 jg@JG:~/PycharmProjects/checkGPU$ THEANO_FLAGS='mode=FAST_RUN,device=gpu,floatX=float32,optimizer_including=cudnn' python check1.py
-
+3.ImportError: Could not import pylearn2.models.maxout but could import pylearn2.models. Original exception: cannot import name 'gpu_unshared_conv'
+add to PYTHONPATH=/home/jg/pylearn2/pylearn2/packaged_dependencies/theano_linear/unshared_conv
+change gpu_unshared_conv.py:
+line 8: from StringIO import StringIO --> from io import StringIO
+line 17,18,19: .unshared_conv --> unshared_conv
