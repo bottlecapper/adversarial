@@ -25,7 +25,7 @@ pv = PatchViewer(grid_shape=(rows, sample_cols + 1), patch_shape=(28,28),
 X = dataset.X
 topo = dataset.get_topological_view()
 index = 0
-for i in xrange(samples.shape[0]):
+for i in range(samples.shape[0]):
     topo_sample = topo_samples[i, :, :, :]
     pv.add_patch(topo_sample * 2. - 1., rescale=False)
 
