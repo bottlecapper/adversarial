@@ -15,15 +15,18 @@ line 28: xrange --> range
 line 30,38: print --> print()
 Script parameters: /home/jg/code/adversarial/cifar10_fully_connected.pkl
 Environment variables: 
-PYTHONPATH=/home/jg/code;
-PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata;
-PYLEARN2_VIEWER_COMMAND=eog --new-instance;
+PYTHONPATH=/home/jg/code
+PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata
+PYLEARN2_VIEWER_COMMAND=eog --new-instance
 PYTHONUNBUFFERED=1
 ***if use gpu:
 LD_LIBRARY_PATH=/usr/local/cuda/lib64
 THEANO_FLAGS=device=gpu,floatX=float32
 PYTHONPATH=/home/jg/pylearn2/pylearn2/packaged_dependencies/theano_linear/unshared_conv:/home/jg/code
 PATH=/usr/local/cuda/bin:/home/jg/miniconda3/bin:/home/jg/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jg/pylearn2/pylearn2/scripts/
+PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata
+PYLEARN2_VIEWER_COMMAND=eog --new-instance
+PYTHONUNBUFFERED=1
 
 
 GPU problems
@@ -48,9 +51,9 @@ line 30,38: print --> print()
 Script parameters: /home/jg/code/adversarial/cifar10_fully_connected.pkl
 Working derectory: /home/jg/code/
 Environment variables: 
-PYTHONPATH=/home/jg/code;
-PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata;
-PYLEARN2_VIEWER_COMMAND=eog --new-instance;
+PYTHONPATH=/home/jg/code
+PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata
+PYLEARN2_VIEWER_COMMAND=eog --new-instance
 PYTHONUNBUFFERED=1
 
 if use GPU
