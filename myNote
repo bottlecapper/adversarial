@@ -94,7 +94,8 @@ THEANO_FLAGS='floatX=float32,device=gpu0,lib.cnmem=0.6'
 (3).CIFAR10_convolutional
 Script parameters:/home/jg/code/adversarial/cifar10_convolutional.yaml
 
-
+### View results
+Script parameters:/home/jg/code/adversarial/cifar10_convolutional.pkl
 
 
 
