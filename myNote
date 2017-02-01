@@ -2,6 +2,8 @@ in terminal, run:
 jg@JG:~/pylearn2/pylearn2/scripts$ THEANO_FLAGS="device=gpu,floatX=float32" python train.py /home/jg/code/adversarial/cifar10_fully_connected.yaml
 
 
+(1).CIFAR10_fully_connected
+
 Settings in Pycharm:
 run /home/jg/pylearn2/pylearn2/scripts/train.py
 Script parameters: /home/jg/code/adversarial/cifar10_fully_connected.yaml
@@ -62,7 +64,7 @@ PYLEARN2_VIEWER_COMMAND=eog --new-instance
 
 
 
-MINIST
+(2).MINIST
 pylearn2/pylearn2/scripts/datasets/download_mnist.py
 Script parameters:/home/jg/code/adversarial/mnist.yaml
 
@@ -82,6 +84,22 @@ set:
 [lib]
 cnmem = 0.6 (use 60% of the GUP, speed up)
 THEANO_FLAGS='floatX=float32,device=gpu0,lib.cnmem=0.6'
+
+
+
+
+(3).CIFAR10_convolutional
+Script parameters:/home/jg/code/adversarial/cifar10_convolutional.yaml
+
+
+
+
+
+
+
+
+
+
 
 
 
