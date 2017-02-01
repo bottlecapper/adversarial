@@ -72,13 +72,16 @@ line 28: xrange --> range
 
 Script parameters: /home/jg/code/adversarial/mnist.pkl
 
-problem:
+problems:
+Waiting 8.0 seconds and trying again
 Waiting 16.0 seconds and trying again
 check if the pkl file is 0KB, replace by the pkl.bac file
 
-
-
-
+CNMeM is disabled, cuDNN 5005
+set:
+[lib]
+cnmem = 0.6 (use 60% of the GUP, speed up)
+THEANO_FLAGS='floatX=float32,device=gpu0,lib.cnmem=0.6'
 
 
 
