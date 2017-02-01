@@ -55,7 +55,7 @@ if use GPU
 PYTHONUNBUFFERED=1
 PYTHONPATH=/home/jg/code:/home/jg/pylearn2/pylearn2/packaged_dependencies/theano_linear/unshared_conv
 PATH=/usr/local/cuda/bin:/home/jg/miniconda3/bin:/home/jg/bin:/home/jg/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jg/pylearn2/pylearn2/scripts/
-THEANO_FLAGS=device=gpu,floatX=float32
+THEANO_FLAGS=device=gpu,floatX=float32,lib.cnmem=0.6
 LD_LIBRARY_PATH=/usr/local/cuda/lib64
 PYLEARN2_DATA_PATH=/home/jg/pylearn2/mydata
 PYLEARN2_VIEWER_COMMAND=eog --new-instance
