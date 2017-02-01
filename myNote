@@ -62,6 +62,8 @@ PYLEARN2_VIEWER_COMMAND=eog --new-instance
 
 
 
+MINIST
+pylearn2/pylearn2/scripts/datasets/download_mnist.py
 
 
 
