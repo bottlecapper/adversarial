@@ -40,7 +40,7 @@ line 17,18,19: .unshared_conv --> unshared_conv
 
 
 ### View results
-show_samples_cifar_full_paper.py
+show_samples_cifar_full_paper.py AND /home/jg/pylearn2/pylearn2/scripts/show_weights.py
 line 28: xrange --> range
 line 30,38: print --> print()
 Script parameters: /home/jg/code/adversarial/cifar10_fully_connected.pkl
