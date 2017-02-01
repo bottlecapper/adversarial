@@ -66,5 +66,22 @@ MINIST
 pylearn2/pylearn2/scripts/datasets/download_mnist.py
 Script parameters:/home/jg/code/adversarial/mnist.yaml
 
+### View results
+show_samples_mnist_paper.py
+line 28: xrange --> range
+
+Script parameters: /home/jg/code/adversarial/mnist.pkl
+
+problem:
+Waiting 16.0 seconds and trying again
+check if the pkl file is 0KB, replace by the pkl.bac file
+
+
+
+
+
+
+
+
 
 
